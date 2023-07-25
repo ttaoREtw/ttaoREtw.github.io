@@ -25,6 +25,6 @@ His primary research interests lie in the field of 3D computer vision and natura
 His aspiration is to reconstruct the world as we perceive it.
 Currently, his work focuses on (1) open-vocabulary 3D object detection and (2) building 3D animatable model from videos.
 
-Before joining NTHU, he was an algorithm engineer at [MediaTek](https://www.mediatek.com). Prior to that, in 2020, he gained valuable experience as an Applied Scientist Intern with [Alexa AI](https://www.amazon.science).
+Before joining NTHU, he was an algorithm engineer at [MediaTek](https://www.mediatek.com). Prior to that, in 2020, he gained valuable experience as an Applied Scientist Intern with [Amazon](https://www.amazon.science).
 He received a M.S. degree in Computer Science & Information Engineering from [National Taiwan University](https://www.ntu.edu.tw/english) and a B.S. degree in Electrical Engineering and Computer Science from [National Tsing Hua University](https://nthu-en.site.nthu.edu.tw).
 He was a member of the Speech Processing Lab, working with [Prof. Lin-shan Lee](https://speech.ee.ntu.edu.tw/previous_version/lslNew.htm) and [Prof. Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php) in the area of machine learning and speech processing.

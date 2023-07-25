@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-ImGeoNet is accepted by ICCV'23. See you at Paris!
+[ImGeoNet](/imgeonet) is accepted by [ICCV'23](https://iccv2023.thecvf.com/). See you at Paris!
