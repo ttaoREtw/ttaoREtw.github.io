@@ -17,7 +17,7 @@ experience: true
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Tao Tu is currently a Research Assistant in the Department of Electrical Engineering at [National Tsing Hua University](https://nthu-en.site.nthu.edu.tw), where he works with [Prof. Min Sun](https://aliensunmin.github.io).
