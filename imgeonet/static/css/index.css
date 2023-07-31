@@ -2,6 +2,15 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight {
+  color: #1b9f66;
+  font-weight: bold;
+}
 
 .footer .icon-link {
     font-size: 25px;
