@@ -1,11 +1,11 @@
           <div class="experience">
             {% if site.experience != blank -%}
             {%- assign experience_size = site.experience | size -%}
-            <div class="table-responsive" {% if include.limit and site.experience.scrollable and experience_size > 3 %}style="max-height: 60vw"{% endif %}>
+            <div class="table-responsive" {% if include.limit and site.adventures.scrollable and experience_size > 3 %}style="max-height: 10vw"{% endif %}>
               <table class="table table-sm table-striped table-borderless">
               {%- assign experience = site.experience | reverse -%}
-              {% if site.experience.limit %}
-              {% assign experience_limit = site.experience.limit %}
+              {% if include.limit and site.adventures.limit %}
+              {% assign experience_limit = site.adventures.limit %}
               {% else %}
               {% assign experience_limit = experience_size %}
               {% endif %}

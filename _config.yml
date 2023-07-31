@@ -172,7 +172,6 @@ collections:
     defaults:
       layout: post
     output: true
-    scrollable: true
     permalink: /experience/:path/
   news:
     defaults:
@@ -182,6 +181,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+adventures:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder
 
 announcements:
   enabled: true

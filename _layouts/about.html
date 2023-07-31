@@ -52,10 +52,13 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
+          <!-- TODO(ttao): unexpected small margin...-->
+          <br>
+
           <!-- Experience -->
-          {% if page.experience -%}
+          {% if page.experience and site.adventures.enabled -%}
             <h2><a href="{{ '/experience/' | relative_url }}" style="color: inherit;">Experience</a></h2>
-            {%- include experience.html %}
+            {%- include experience.html limit=true %}
           {%- endif %}
 
           <!-- TODO(ttao): unexpected small margin...-->

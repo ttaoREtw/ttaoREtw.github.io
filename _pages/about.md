@@ -2,16 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: (In search of a PhD position starting in 2024) # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: tao.png
   image_circular: false # crops the image to make it circular
-  address: # >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  address: >
+    <p><center><small>ttaoretw@gmail.com</p></center></small>
+    <br><br>
 
 experience: true
 news: true  # includes a list of news items
