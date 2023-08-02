@@ -69,6 +69,7 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">ImGeoNet: Image-induced Geometry-aware Voxel Representation for Multi-view 3D Object Detection</h1>
+          <h2 class="title is-size-3 publication-title">ICCV'23</h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://ttaoretw.github.io">Tao Tu</a><sup>1</sup>,
@@ -198,56 +199,58 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Results</h2>
-        <table class="table is-hoverable is-bordered">
-          <thead>
-            <tr>
-              <th scope="col" style="vertical-align:middle;text-align:center;" rowspan="2">Method</th>
-              <th scope="col" colspan="2">Input</th>
-              <th scope="col" colspan="2">ARKitScenes</th>
-              <th scope="col" colspan="2">ScanNet</th>
-              <th scope="col" colspan="1">ScanNet200</th>
+        <div class="table_wrapper">
+          <table class="table is-hoverable is-bordered">
+            <thead>
+              <tr>
+                <th scope="col" style="vertical-align:middle;text-align:center;" rowspan="2">Method</th>
+                <th scope="col" colspan="2">Input</th>
+                <th scope="col" colspan="2">ARKitScenes</th>
+                <th scope="col" colspan="2">ScanNet</th>
+                <th scope="col" colspan="1">ScanNet200</th>
+              </tr>
+              <tr>
+                <th scope="col">RGB</th>
+                <th scope="col">PC</th>
+                <th scope="col">mAP@0.25</th>
+                <th scope="col">mAP@0.5</th>
+                <th scope="col">mAP@0.25</th>
+                <th scope="col">mAP@0.5</th>
+                <th scope="col">mAP@0.25</th>
+              </tr>
+            </thead>
+            <tr color="red">
+              <td scope="col" style="text-align:left"><span class="highlight">ImGeoNet</span></td>
+              <td scope="col">✔</td>
+              <td scope="col">✘</td>
+              <td scope="col"><span class="highlight">60.2</span></td>
+              <td scope="col"><span class="highlight">43.4</span></td>
+              <td scope="col">54.8</td>
+              <td scope="col">28.4</td>
+              <td scope="col"><span class="highlight">22.3</span></td>
             </tr>
             <tr>
-              <th scope="col">RGB</th>
-              <th scope="col">PC</th>
-              <th scope="col">mAP@0.25</th>
-              <th scope="col">mAP@0.5</th>
-              <th scope="col">mAP@0.25</th>
-              <th scope="col">mAP@0.5</th>
-              <th scope="col">mAP@0.25</th>
+              <td scope="col" style="text-align:left">ImVoxelNet</td>
+              <td scope="col">✔</td>
+              <td scope="col">✘</td>
+              <td scope="col">58.0</td>
+              <td scope="col">38.8</td>
+              <td scope="col">48.7</td>
+              <td scope="col">23.8</td>
+              <td scope="col">19.0</td>
             </tr>
-          </thead>
-          <tr color="red">
-            <td scope="col" style="text-align:left"><span class="highlight">ImGeoNet</span></td>
-            <td scope="col">✔</td>
-            <td scope="col">✘</td>
-            <td scope="col"><span class="highlight">60.2</span></td>
-            <td scope="col"><span class="highlight">43.4</span></td>
-            <td scope="col">54.8</td>
-            <td scope="col">28.4</td>
-            <td scope="col"><span class="highlight">22.3</span></td>
-          </tr>
-          <tr>
-            <td scope="col" style="text-align:left">ImVoxelNet</td>
-            <td scope="col">✔</td>
-            <td scope="col">✘</td>
-            <td scope="col">58.0</td>
-            <td scope="col">38.8</td>
-            <td scope="col">48.7</td>
-            <td scope="col">23.8</td>
-            <td scope="col">19.0</td>
-          </tr>
-          <tr>
-            <td scope="col" style="text-align:left">VoteNet</td>
-            <td scope="col">✘</td>
-            <td scope="col">✔</td>
-            <td scope="col">53.3</td>
-            <td scope="col">38.5</td>
-            <td scope="col"><span class="highlight">58.6</span></td>
-            <td scope="col"><span class="highlight">33.5</span></td>
-            <td scope="col">19.8</td>
-          </tr>
-        </table>
+            <tr>
+              <td scope="col" style="text-align:left">VoteNet</td>
+              <td scope="col">✘</td>
+              <td scope="col">✔</td>
+              <td scope="col">53.3</td>
+              <td scope="col">38.5</td>
+              <td scope="col"><span class="highlight">58.6</span></td>
+              <td scope="col"><span class="highlight">33.5</span></td>
+              <td scope="col">19.8</td>
+            </tr>
+          </table>
+        </div>
         <div class="content has-text-justified">
           <p>
             <strong>ARKitScenes</strong> contains noisy and sparse point clouds while <strong>ScanNet</strong> has high-quality point clouds from reconstructed mesh.
