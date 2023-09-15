@@ -20,8 +20,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Tao Tu is currently a research assistant in the Department of Electrical Engineering at [National Tsing Hua University](https://nthu-en.site.nthu.edu.tw), where he works with [Prof. Min Sun](https://aliensunmin.github.io).
-He is also a visiting researcher in UCMerced, working with [Prof. Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang).
-His primary research interests lie in the field of 3D computer vision and natural language / speech processing.
+He is also a visiting researcher in [UCMerced's VLLab](http://vllab.ucmerced.edu/), working with [Prof. Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang).
 His aspiration is to empower machines with the intelligence to comprehend and engage with their surroundings.
 Currently, his primary areas of focus encompass 3D computer vision and multimodal learning.
 
