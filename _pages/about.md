@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: (In search of a PhD position starting in 2024) # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: (In search of a PhD position starting in 2024) # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -19,10 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Tao Tu is currently a research assistant in the Department of Electrical Engineering at [National Tsing Hua University](https://nthu-en.site.nthu.edu.tw), fortunate to collaborate with [Prof. Min Sun](https://aliensunmin.github.io).
-He is also a visiting student in [UCMerced's VLLab](http://vllab.ucmerced.edu/), privileged to work with [Prof. Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang).
-His research aims to empower machines with the intelligence to comprehend and engage with their surroundings.
-Currently, he focuses on 3D computer vision and multimodal learning.
+Tao Tu is a first-year PhD student in [Computer Science at Cornell University](https://www.cs.cornell.edu/), focusing on 3D computer vision and multimodal learning.
+Previously, he was a research assistant in the Department of Electrical Engineering at [National Tsing Hua University](https://nthu-en.site.nthu.edu.tw), fortunate to collaborate with [Prof. Min Sun](https://aliensunmin.github.io).
+He was also a visiting student in [UCMerced's VLLab](http://vllab.ucmerced.edu/), privileged to work with [Prof. Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang).
 
 Before joining NTHU, he was an algorithm engineer at [MediaTek](https://www.mediatek.com). Before that, in 2020, he gained valuable experience as an applied scientist intern with [Amazon](https://www.amazon.science).
 He received an M.S. degree in Computer Science & Information Engineering from [National Taiwan University](https://www.ntu.edu.tw/english) and a B.S. degree in Electrical Engineering and Computer Science from [National Tsing Hua University](https://nthu-en.site.nthu.edu.tw).
